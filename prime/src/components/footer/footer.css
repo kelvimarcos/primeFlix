@@ -76,6 +76,11 @@
 .footer__bottom p {
   font-size: 12px;
   color: var(--text-muted);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
 }
 
 /* Responsive */
