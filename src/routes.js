@@ -11,7 +11,7 @@ import Footer from "./components/footer";
 
 function RoutesApp() {
   return (
-    <HashRouter>
+    <HashRouter basename="/primeFlix">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
