@@ -8,6 +8,7 @@ import Favoritos from "./pages/Favoritos";
 import Erro from './pages/Erro/';
 
 import Header from "./components/header";
+import Footer from "./components/footer";
 
 
 function RoutesApp() {
@@ -21,7 +22,7 @@ function RoutesApp() {
 
                 <Route path="*" element={<Erro />} />
             </Routes>
-
+            <Footer/>
         </BrowserRouter>
     );
 

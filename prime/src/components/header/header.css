@@ -1,30 +1,146 @@
+/* ============================================
+   Header — Editorial Cinema Navbar
+   ============================================ */
 
-
-
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    height: 60px;
-    background-color: black;
-}
-.logo {
-    text-decoration: none;
-    font-size: 25px;
-    cursor: pointer;
-    color: #fff;
-    font-weight: bold;
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--header-height);
+  z-index: 1000;
+  background: rgba(8, 9, 14, 0.5);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-bottom: 1px solid var(--border-subtle);
+  transition: var(--transition-smooth);
 }
 
-.favoritos { 
-    text-decoration: none;
-    cursor: pointer;
-    background-color: #fff;
-    padding: 5px 14px;
-    color: black;
-    border-radius: 4px;
-    font-weight: 600;
+.header--scrolled {
+  background: rgba(8, 9, 14, 0.95);
+  box-shadow: 0 1px 40px rgba(0, 0, 0, 0.3);
+}
 
+.header__nav {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 32px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  transition: var(--transition-smooth);
+}
+
+.header__logo:hover {
+  opacity: 0.85;
+}
+
+.header__logo-svg {
+  color: var(--accent);
+  transition: var(--transition-smooth);
+}
+
+.header__logo:hover .header__logo-svg {
+  color: var(--accent-light);
+  filter: drop-shadow(0 0 8px var(--accent-glow));
+}
+
+.header__logo-text {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: var(--text-primary);
+}
+
+.header__logo-accent {
+  color: var(--accent);
+}
+
+/* Nav Links */
+.header__links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.header__link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  transition: var(--transition-fast);
+}
+
+.header__link:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.header__link--active {
+  color: var(--accent);
+}
+
+.header__link--active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 16px;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 1px;
+  box-shadow: 0 0 6px var(--accent-glow);
+}
+
+/* Badge */
+.header__badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--bg-primary);
+  background: var(--accent);
+  border-radius: 9px;
+}
+
+/* --- Responsive --- */
+@media (max-width: 600px) {
+  .header__nav {
+    padding: 0 16px;
+  }
+
+  .header__logo-text {
+    font-size: 17px;
+  }
+
+  .header__logo-svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .header__link {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
 }
