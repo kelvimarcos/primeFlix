@@ -57,11 +57,11 @@ Foco em prática de front-end, UI moderna e experiência do usuário.
 
 ## 📸 Capturas de Tela
 
-![Hero](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/prime/captura%20de%20tela/hero.png)
-![Cartaz](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/prime/captura%20de%20tela/cartaz.png)
-![Top Filmes](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/prime/captura%20de%20tela/top.png)
-![Tendências](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/prime/captura%20de%20tela/tendencias.png)
-![Footer](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/prime/captura%20de%20tela/footer.png)
+![Hero](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/captura%20de%20tela/hero.png)
+![Cartaz](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/captura%20de%20tela/cartaz.png)
+![Top Filmes](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/captura%20de%20tela/top.png)
+![Tendências](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/captura%20de%20tela/tendencias.png)
+![Footer](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/captura%20de%20tela/footer.png)
 
 <br>
 <br>
