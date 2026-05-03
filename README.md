@@ -57,9 +57,7 @@ Foco em prática de front-end, UI moderna e experiência do usuário.
 
 ## 📸 Capturas de Tela
 
-![Tela 1](img/tela-1.png)  
-![Tela 2](img/tela-2.png)  
-![Tela 3](img/tela-3.png)  
+
 
 <br>
 <br>
