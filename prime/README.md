@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# 🎬 PrimeFlix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma plataforma de filmes desenvolvida com React + JavaScript + CSS, criada para praticar desenvolvimento front-end moderno, consumo de APIs e construção de interfaces dinâmicas.
 
-## Available Scripts
+O objetivo principal foi simular uma experiência de streaming, permitindo navegação entre filmes, visualização de detalhes e uma interface inspirada em plataformas profissionais, fortalecendo habilidades em componentização, rotas e consumo de dados externos.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+<br>
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Listagem dinâmica de filmes populares <br>
+Página de detalhes individuais dos filmes <br>
+Sistema de rotas entre páginas <br>
+Consumo de API para dados atualizados <br>
+Interface moderna inspirada em streaming platforms <br>
+Layout responsivo e organizado <br>
+Sistema de favoritos (caso implementado) <br>
 
-### `npm test`
+<br>
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm run build`
+React.js → Estrutura da aplicação  
+JavaScript → Lógica e interatividade  
+CSS3 → Estilização e responsividade  
+React Router DOM → Navegação entre páginas  
+API de Filmes (TMDB ou similar) → Dados dinâmicos  
+Vite → Ambiente moderno de desenvolvimento  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📖 O que aprendi com este projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Criar aplicações com React de forma estruturada  
+Gerenciar componentes reutilizáveis  
+Trabalhar com rotas SPA  
+Consumir APIs externas  
+Organizar melhor arquitetura front-end  
+Desenvolver interfaces com aparência profissional  
 
-### `npm run eject`
+<br>
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚠️ Observações Importantes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Projeto desenvolvido para fins educacionais e portfólio.  
+Os dados dos filmes são consumidos via API pública.  
+Foco em prática de front-end, UI moderna e experiência do usuário.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br>
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📸 Capturas de Tela
 
-## Learn More
+![Tela 1](img/tela-1.png)  
+![Tela 2](img/tela-2.png)  
+![Tela 3](img/tela-3.png)  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🌐 Acesse o Projeto
 
-### Code Splitting
+Você pode visualizar o projeto diretamente pelo navegador: <br>
+👉 [https://kelvimarcos.github.io/primeFlix/](https://kelvimarcos.github.io/primeFlix/) <br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br>
+<br>
 
-### Analyzing the Bundle Size
+## 📌 Próximos Passos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Melhorar experiência mobile  
+Adicionar sistema completo de favoritos  
+Implementar busca por filmes  
+Criar autenticação de usuário  
+Migrar para gerenciamento de estado mais robusto (Context API ou Redux)  
+Refinar animações e transições  
 
-### Making a Progressive Web App
+<br>
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🧠 Insight rápido
 
-### Advanced Configuration
+Esse tipo de projeto já eleva seu portfólio para outro nível porque demonstra domínio de React, APIs e arquitetura moderna.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Mais que um layout bonito, aqui você mostra capacidade real de construir aplicações próximas do mercado profissional.
