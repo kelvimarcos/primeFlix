@@ -4,6 +4,17 @@ Este projeto é uma plataforma de filmes desenvolvida com React + JavaScript + C
 
 O objetivo principal foi simular uma experiência de streaming, permitindo navegação entre filmes, visualização de detalhes e uma interface inspirada em plataformas profissionais, fortalecendo habilidades em componentização, rotas e consumo de dados externos.
 
+<br>
+<br>
+
+## 📸 Capturas de Tela
+
+![Hero](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/captura%20de%20tela/hero.png)
+![Cartaz](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/captura%20de%20tela/cartaz.png)
+![Top Filmes](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/captura%20de%20tela/top.png)
+![Tendências](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/captura%20de%20tela/tendencias.png)
+![Footer](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/captura%20de%20tela/footer.png)
+
 ---
 
 <br>
@@ -51,17 +62,6 @@ Desenvolver interfaces com aparência profissional
 Projeto desenvolvido para fins educacionais e portfólio.  
 Os dados dos filmes são consumidos via API pública.  
 Foco em prática de front-end, UI moderna e experiência do usuário.  
-
-<br>
-<br>
-
-## 📸 Capturas de Tela
-
-![Hero](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/captura%20de%20tela/hero.png)
-![Cartaz](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/captura%20de%20tela/cartaz.png)
-![Top Filmes](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/captura%20de%20tela/top.png)
-![Tendências](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/captura%20de%20tela/tendencias.png)
-![Footer](https://raw.githubusercontent.com/kelvimarcos/primeFlix/main/captura%20de%20tela/footer.png)
 
 <br>
 <br>
